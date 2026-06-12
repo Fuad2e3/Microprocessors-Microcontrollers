@@ -51,9 +51,6 @@ To run the assembly files, you will need:
 3. Click **Emulate** and then **Run**.
 4. Follow the on-screen menu prompts.
 
-## 🤝 Contributing
-
-Contributions are welcome! If you have suggestions for the Smart Gardening Ecosystem or improvements to the current assembly logic, feel free to open an issue or submit a pull request.
 
 ## 📄 License
 
