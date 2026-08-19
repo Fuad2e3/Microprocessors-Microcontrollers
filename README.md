@@ -57,6 +57,6 @@ To run the assembly files, you will need:
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="center">
-  Developed with ❤️ by <b>Team Softece</b><br>
+  Developed with ❤️ by <b>Fuad</b><br>
   <i>Microprocessors & Microcontrollers | Green University of Bangladesh</i>
 </p>
