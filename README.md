@@ -13,7 +13,7 @@
 
 ---
 
-[Explore Features](#-features) • [Project Structure](#-project-structure) • [Emulator Setup](#-getting-started) • [License](#-license)
+[Explore Features](#-features) • [Project Structure](#-project-structure) • [License](#-license)
 
 </div>
 
@@ -46,26 +46,11 @@ Microprocessors-Microcontrollers/
 
 ---
 
-## 🛠️ Getting Started
-
-### 1. Prerequisites
-- [Emu8086 Microprocessor Emulator](https://emu8086-microprocessor-emulator.en.softonic.com/) or DOSBox with TASM/MASM.
-
-### 2. Execution in Emu8086
-1. Launch **Emu8086**.
-2. Open [`financial_system.asm`](file:///c:/Users/fuadk/Documents/GitHub/DEMO/Microprocessors-Microcontrollers/src/financial_system.asm).
-3. Click **Compile & Emulate**.
-4. Step through instructions (`Single Step`) or click **Run** to launch the interactive prompt.
-
----
-
 ## 📄 License
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
 
-**Developed with ❤️ by Fuad**  
-*Developed by Softece*  
-*Microprocessors & Microcontrollers | Green University of Bangladesh*
+**Developed ❤️ by Softece**
 
 </div>
