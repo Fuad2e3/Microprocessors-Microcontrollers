@@ -1,62 +1,71 @@
-<h1 align="center">Microprocessors & Microcontrollers</h1>
+<div align="center">
 
-<p align="center">
-  <b>The Ultimate AI-Powered Smart Gardening Ecosystem</b><br>
-  <i>Empowering gardeners with cutting-edge AI, a thriving marketplace, and a global community.</i>
-</p>
+# ⚡ Microprocessors & Microcontrollers: 8086 Assembly Suite
+### **Low-Level Hardware Computing, Register Arithmetic & System Interrupts**
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Android-brightgreen?style=for-the-badge&logo=android" alt="Platform">
-  <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java" alt="Language">
-  <img src="https://img.shields.io/badge/Backend-Firebase-yellow?style=for-the-badge&logo=firebase" alt="Backend">
-  <img src="https://img.shields.io/badge/AI-Gemini-blueviolet?style=for-the-badge&logo=google-gemini" alt="AI">
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License">
-</p>
+[![Language](https://img.shields.io/badge/Language-Assembly_8086-orange?style=for-the-badge&logo=assemblyscript&logoColor=white)](https://en.wikipedia.org/wiki/X86_assembly_language)
+[![Architecture](https://img.shields.io/badge/Architecture-x86_16--bit-blue?style=for-the-badge)](https://en.wikipedia.org/wiki/Intel_8086)
+[![Emulator](https://img.shields.io/badge/Emulator-EMU8086_%7C_DOSBox-brightgreen?style=for-the-badge)](https://emu8086-microprocessor-emulator.en.softonic.com/)
+[![Course](https://img.shields.io/badge/Course-Microprocessors-8E75FF?style=for-the-badge)](https://green.edu.bd)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+
+**Direct hardware-level computing, register state manipulation, stack frames, and BIOS/DOS INT 21h interrupts.**
+
+---
+
+[Explore Features](#-features) • [Project Structure](#-project-structure) • [Emulator Setup](#-getting-started) • [License](#-license)
+
+</div>
 
 ---
 
 ## 📖 Overview
+Developed as part of the Microprocessors & Microcontrollers curriculum at **Green University of Bangladesh**, this repository contains low-level **Intel 8086 Assembly Language** programs demonstrating direct register manipulation (AX, BX, CX, DX), segment memory addressing (DS, CS, SS), and software interrupt handling.
 
-This repository contains low-level implementations and systems developed as part of the **Microprocessors & Microcontrollers** course at **Green University of Bangladesh**. While the ecosystem is evolving towards an AI-powered smart gardening solution, it currently hosts foundational assembly language projects that demonstrate core computational logic.
+---
 
 ## 🚀 Features
 
-- **Financial Management System**: A comprehensive 8086 Assembly program for managing investments, withdrawals, and profit calculations.
-- **Arithmetic Logic Operations**: Specialized modules for high-speed multiplication and mathematical processing.
-- **Efficient Memory Handling**: Optimized assembly routines for low-level hardware interaction.
+- 💰 **Assembly Financial Ledger System (`financial_system.asm`):** Interactive menu-driven console program handling balance tracking, deposits, withdrawals, and interest/profit math directly in 16-bit registers.
+- ✖️ **High-Performance Arithmetic (`multiplication.asm`):** Register-optimized multi-precision multiplication and division routines.
+- 🖥️ **BIOS/DOS Interrupt Handling:** Direct string input/output utilizing DOS Service routines (`INT 21h, AH=01h`, `AH=02h`, `AH=09h`).
+- 🧠 **Stack & Memory Management:** Efficient push/pop stack frame usage to protect context across subroutine calls.
+
+---
 
 ## 📁 Project Structure
 
 ```text
-.
+Microprocessors-Microcontrollers/
 ├── src/
-│   ├── financial_system.asm  # Core financial logic (Deposit, Withdraw, Profit)
-│   └── multiplication.asm    # Multi-functional multiplication module
-├── LICENSE                   # MIT License
-└── README.md                 # Project documentation
+│   ├── financial_system.asm    # Core financial ledger logic (Deposit, Withdraw, Profit)
+│   └── multiplication.asm      # Multi-precision arithmetic & shift multiplication
+├── LICENSE                     # MIT License
+└── README.md                   # System documentation
 ```
+
+---
 
 ## 🛠️ Getting Started
 
-### Prerequisites
+### 1. Prerequisites
+- [Emu8086 Microprocessor Emulator](https://emu8086-microprocessor-emulator.en.softonic.com/) or DOSBox with TASM/MASM.
 
-To run the assembly files, you will need:
-- [Emu8086](https://emu8086-microprocessor-emulator.en.softonic.com/) or any 8086 Microprocessor Emulator.
-- DOSBox (optional, for running compiled `.com` or `.exe` files).
+### 2. Execution in Emu8086
+1. Launch **Emu8086**.
+2. Open [`financial_system.asm`](file:///c:/Users/fuadk/Documents/GitHub/DEMO/Microprocessors-Microcontrollers/src/financial_system.asm).
+3. Click **Compile & Emulate**.
+4. Step through instructions (`Single Step`) or click **Run** to launch the interactive prompt.
 
-### Execution
-
-1. Open `Emu8086`.
-2. Load any file from the `src/` directory.
-3. Click **Emulate** and then **Run**.
-4. Follow the on-screen menu prompts.
-
+---
 
 ## 📄 License
-
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<p align="center">
-  Developed with ❤️ by <b>Fuad</b><br>
-  <i>Microprocessors & Microcontrollers | Green University of Bangladesh</i>
-</p>
+<div align="center">
+
+**Developed with ❤️ by Fuad**  
+*Developed by Softece*  
+*Microprocessors & Microcontrollers | Green University of Bangladesh*
+
+</div>
